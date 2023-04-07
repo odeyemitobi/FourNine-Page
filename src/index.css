@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Chewy&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap");
 
 body {
   margin: 0;
@@ -31,8 +29,8 @@ code {
   background: linear-gradient(rgba(200, 36, 98, 0.8), rgba(200, 36, 98, 0.8));
 }
 
-.font1{
-  font-family: "Patua One";
+.font1 {
+  font-family: 'Patua One', cursive;
 }
 
 .font2 {
@@ -40,16 +38,31 @@ code {
 }
 
 .font3 {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
 }
 
 .font5 {
   font-family: "Cormorant";
 }
 
-.font6{
-  font-family: "Oleo Script";
+.font6 {
+  font-family: 'Oleo Script', cursive;
+}
+
+.font7 {
+  font-family: 'Prata', serif;
+}
+
+.font8 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font9 {
+  font-family: "Chewy", cursive;
+}
+
+.font10 {
+  font-family: 'Belleza', sans-serif;
 }
 
 .section2 {
