@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 
 body {
@@ -45,6 +46,10 @@ code {
 
 .font5 {
   font-family: "Cormorant";
+}
+
+.font6{
+  font-family: "Oleo Script";
 }
 
 .section2 {
