@@ -2,6 +2,10 @@ import React from "react";
 import MainLayout from "../../Layouts/MainLayout";
 import { SlSocialYoutube } from "react-icons/sl";
 import ReadBtn from "../../components/Buttons/ReadBtn";
+import FR from "../../Assets/img/Four.png";
+import ROSE2 from "../../Assets/img/Rosie2.png";
+import FOL1 from "../../Assets/img/Follow1.png";
+import FOL2 from "../../Assets/img/Follow2.png";
 import TR1 from "../../Assets/img/trendimg1.png";
 import TR2 from "../../Assets/img/trendimg2.png";
 import TR3 from "../../Assets/img/trendimg3.png";
@@ -22,6 +26,9 @@ import JoinBtn from "../../components/Buttons/JoinBtn";
 import LoadBtn from "../../components/Buttons/LoadBtn";
 import LearnBtn from "../../components/Buttons/LearnBtn";
 import LearnBtn2 from "../../components/Buttons/LearnBtn2";
+import { AiFillYoutube, AiOutlineInstagram } from "react-icons/ai";
+import { RiFacebookFill } from "react-icons/ri";
+import { FaSnapchatGhost } from "react-icons/fa";
 
 function Home() {
   return (
@@ -74,7 +81,7 @@ function Home() {
           <h1 className="text-3xl font1 text-[#C82462]">
             DISCOVER MORE WITH OUR SHOWS
           </h1>
-          <div className=" flex justify-between mt-16">
+          <div className=" flex cursor-pointer justify-between mt-16">
             <div className="w-full">
               <img className="h-[22rem] absolute" src={DS1} alt="" />
               <div className=" flex relative justify-between pl-11 pr-20 pt-1">
@@ -127,7 +134,7 @@ function Home() {
                 </div>
               </div>
               <div className="relative pt-[12.3rem] pl-4">
-                <h1 className="font9 text-white rotate-[-6.04deg] font-bold text-[23px] leading-9 tracking-widest">
+                <h1 className="font9 w-[80%] text-center text-white rotate-[-6.04deg] text-[32px] leading-9 tracking-widest">
                   FOUR NINE VOICES
                 </h1>
               </div>
@@ -260,7 +267,7 @@ function Home() {
                 <h1 className="font1 text-[#C82462] text-[22px] leading-7 tracking-widest mt-5">
                   UNCATEGORISED
                 </h1>
-                <p className="font2  text-[#C82462] text-[33px] leading-8 tracking-widest mt-5">
+                <p className="font2  text-[#C82462] text-[30px] leading-8 tracking-widest mt-5">
                   Meet Rebekah Vardy’s children afte...
                 </p>
                 <p className="w-[91.7%] font8 text-[13px] leading-5 tracking-widest mt-5">
@@ -268,7 +275,7 @@ function Home() {
                   mother has made no secret that
                 </p>
                 <p className="font8 text-[13px] leading-5 tracking-widest mt-5">
-                  DECEMBER 8, 2021
+                  DECEMBER 2, 2022
                 </p>
                 <div className="my-4 text-[10px]">
                   <ReadBtn>
@@ -298,7 +305,7 @@ function Home() {
                   perfect match is no easy feat. While Tinde
                 </p>
                 <p className="font8 text-[13px] leading-5 tracking-widest mt-5">
-                  DECEMBER 8, 2021
+                  DECEMBER 8, 2022
                 </p>
                 <div className="my-4 text-[10px]">
                   <ReadBtn>
@@ -342,22 +349,120 @@ function Home() {
         </div>
       </div>
       <div className="w-full bg-[#C82462]">
-        <div className="px-14 pt-7 pb-9 flex justify-between">
-          <div className="w-full text-white text-[36px] font3">
+        <div className="px-14 pt-20 pb-24 flex justify-between">
+          <div className="w-[90%] text-white text-[34px] font3">
             <h1 className="font-semibold tracking-[-0.03em]">ABOUT US</h1>
-            <p className="text-[32px] mt-24 font-medium">
+            <p className=" w-[95%] text-[29px] mt-[7rem] font-medium">
               The Four Nine team is run by talented people who are guided and
               inspired by our global female-first community of 14 million people
               every day.
             </p>
-            <div className=" mt-12">
+            <div className=" mt-[2rem]">
               <LearnBtn2>LEARN MORE</LearnBtn2>
             </div>
           </div>
-          <div className="w-full">p</div>
+          <div className="w-full">
+            <div className="grid place-items-center h-full">
+              <img className="absolute h-[361px]" src={ROSE2} alt="" />
+              <div className="relative rosey">
+                <div className=" text-center text-[#C82462] absolute bottom-0 right-0 left-0 rosa">
+                  <h1 className="text-[36px] leading-10 tracking-widest font2 mb-1">
+                    Rosie
+                  </h1>
+                  <p className="font3 text-[19px] leading-5 tracking-widest mb-3">
+                    CREATIVE MANAGER - BEAUTY
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div>hello</div>
+      <div className="w-full">
+        <div className="flex justify-between">
+          <div className="w-full">
+            <img src={FOL1} alt="" />
+          </div>
+          <div className="w-full text-center px-[5rem] py-[4rem] justify-center">
+            <h1 className="font2 text-[#C82462] text-[40px] leading-10 tracking-widest">
+              Follow us
+            </h1>
+            <p className=" font3 text-[27px] mt-14 leading-7 tracking-widest">
+              AND JOIN OUR COMMUNITY
+            </p>
+            <div className="flex w-full mt-14 justify-center">
+              <div className="p-4">
+                <AiFillYoutube size={25} />
+              </div>
+              <div className="p-4">
+                <RiFacebookFill size={25} />
+              </div>
+              <div className="p-4">
+                <AiOutlineInstagram size={25} />
+              </div>
+              <div className="p-4">
+                <FaSnapchatGhost size={25} />
+              </div>
+            </div>
+          </div>
+          <div className="w-full">
+            <img src={FOL2} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#BDA0D6]">
+        <div className="flex justify-between text-white px-12 pt-[5rem] pb-[6rem]">
+          <div className="w-full">
+            <img className="h-[4rem]" src={FR} alt="" />
+            <div className="flex">
+              <div className="">
+                <AiFillYoutube size={25} />
+              </div>
+              <div className="pl-8">
+                <RiFacebookFill size={25} />
+              </div>
+              <div className="pl-8">
+                <AiOutlineInstagram size={25} />
+              </div>
+              <div className="pl-8">
+                <FaSnapchatGhost size={25} />
+              </div>
+            </div>
+          </div>
+          <div className="w-full font2 grid justify-center mt-3 ">
+            <h1 className="text-[36px] leading-10 tracking-widest">COMPANY</h1>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              About us
+            </p>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              Jungle Creations
+            </p>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              Privacy Policy
+            </p>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              Cookie policy
+            </p>
+          </div>
+          <div className="w-full font2 grid justify-center mt-3 ">
+            <h1 className="text-[36px] leading-10 tracking-widest">EXPLORE</h1>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">News</p>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              Entertainment
+            </p>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              Lifestyle
+            </p>
+            <p className="text-[26px] leading-7 tracking-widest mt-5">
+              Relationship
+            </p>
+          </div>
+          <div className="w-full mt-3 mb-[-4rem] border-l-4 pl-9">
+            <h1 className="font8 text-[25px] leading-7 tracking-widest">Jungle Creations</h1>
+            <p className="font2 text-[19px] leading-5 tracking-widest mt-5">@Jungle creations 2020</p>
+          </div>
+        </div>
+      </div>
     </MainLayout>
   );
 }

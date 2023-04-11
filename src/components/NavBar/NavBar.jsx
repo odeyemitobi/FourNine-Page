@@ -12,8 +12,8 @@ function NavBar() {
         <div>
           <img src={FR} alt="" />
         </div>
-        <div className="w-full flex pb-2 justify-center text-white ">
-          <div className=" w-full flex text-[19px] font-medium justify-between">
+        <div className="w-full flex pb-2 justify-center text-white cursor-pointer ">
+          <div className=" w-full flex text-[19px] font-medium justify-between navbar">
             <p className="">NEWS</p>
             <p className="">ENTERTAINMENT</p>
             <p className="">LIFESTYLE</p>
@@ -37,7 +37,7 @@ function NavBar() {
         </div>
       </div>
       <div className="w-full px-12 pb-16 pt-[19rem] font1 ">
-        <div className="w-[50%]">
+        <div className="w-[55%]">
           <h1 className="text-[#C82462] font-semibold text-3xl tracking-widest">UNCATEGORISED</h1>
           <h1 className="text-white font2 text-[38.1709px] leading-[52px] tracking-widest">
             Roe v. Wade: What you’re saying in response to abortion rights beig

@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Chewy&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Chewy&family=Cormorant:wght@300;400;500;600;700&family=DM+Serif+Display&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap");
 
 body {
   margin: 0;
@@ -36,7 +36,8 @@ code {
 }
 
 .font2 {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
 }
 
 .font3 {
@@ -44,7 +45,7 @@ code {
 }
 
 .font5 {
-  font-family: "Cormorant";
+  font-family: "Cormorant", serif;
 }
 
 .font6 {
@@ -69,4 +70,36 @@ code {
 
 .section2 {
   background: rgba(254, 149, 213, 0.46);
+}
+
+.navbar p::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.navbar p:hover::after {
+  width: 100%;
+}
+
+.rosey {
+  height: 489px;
+  width: 70%;
+  background-image: url(./Assets/img/Rosie1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.rosa {
+  background: linear-gradient(
+    360deg,
+    #d9d9d9 24.73%,
+    rgba(217, 217, 217, 0) 93.77%
+  );
+  border-radius: 0px 0px 30px 30px;
 }
